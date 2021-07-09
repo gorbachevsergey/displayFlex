@@ -1,0 +1,198 @@
+.basic{
+    display: flex;
+    height: auto;
+    width: auto;
+    background-color: deepskyblue;
+    border: 2px solid;
+    padding:50px;
+    position: relative;
+}
+
+.container{
+    text-align:center;
+    height: 50px;
+    width: 150px;
+    background: linear-gradient(aqua,cornsilk);
+    border: 1px solid slateblue;
+    margin: 5px;
+    box-shadow: 0 0 15px blanchedalmond;
+}
+.container:hover{
+    background: linear-gradient(cornsilk,aqua);
+    box-shadow: 0 0 15px ghostwhite;
+    transform: scale(1.2);
+}
+
+.line{
+    height: 25px;
+    width: 100%;
+    background: linear-gradient(green,#ff000d);
+}
+
+.place{
+    position: absolute;
+    top:-15px;
+    font-size: 25px;
+    color: blue;
+    left: 100px;
+}
+
+.rowReverse{
+    flex-direction: row-reverse;
+}
+
+.column{
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+}
+.column-reverse{
+    align-items: center;
+    flex-direction: column-reverse;
+    height: 300px;
+}
+
+.column .container{
+    height:50px;
+}
+
+.flex-wrap{
+    flex-wrap:wrap;
+
+}
+
+.flex-wrap .container, .wrap-reverse .container{
+    height:50px;
+    width:240px;
+}
+
+.wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
+
+.flex-start{
+    justify-content: flex-start;
+}
+
+.flex-end{
+    justify-content:flex-end;
+}
+
+.center{
+    justify-content:center;
+}
+
+.space-between{
+    justify-content:space-between;
+}
+
+.space-around{
+    justify-content:space-around;
+}
+
+.space-evenly{
+    justify-content:space-evenly;
+}
+
+.flexStartAl{
+    align-items: flex-start;
+}
+
+.h25{
+    height:25px;
+}
+
+.h15{
+    height:15px;
+}
+
+.h35{
+    height:35px;
+}
+
+.h75{
+    height:75px;
+}
+
+.flexEndAl{
+    align-items: flex-end;
+}
+
+.centerAl{
+    align-items: center;
+}
+
+.baselineAl{
+    align-items: baseline;
+}
+
+.baselineAl .container{
+    height:auto;
+}
+
+.conH400{
+    height:250px;
+}
+
+.flexStartA{
+    flex-wrap:wrap;
+    align-content: flex-start;
+}
+
+.flexEndA{
+    flex-wrap:wrap;
+    align-content: flex-end;
+}
+
+.centerA{
+    flex-wrap:wrap;
+    align-content: center;
+}
+.spaceBetweenAl{
+    flex-wrap:wrap;
+    align-content: space-between;
+}
+.spaceAroundAl{
+    flex-wrap:wrap;
+    align-content: space-around;
+}
+.spaceEvenlyAl{
+    flex-wrap:wrap;
+    align-content: space-evenly;
+}
+
+.s15{
+    font-size:15px;
+}
+
+.s25{
+    font-size:25px;
+}
+
+.s35{
+    font-size:35px;
+}
+
+.s75{
+    font-size:75px;
+}
+
+.w10{
+    width:100px;
+}
+.w20{
+    width:200px;
+}
+
+.w12{
+    width:120px;
+}
+
+.w35{
+    width:350px;
+}
+
+.w26{
+    width:260px;
+}
+
